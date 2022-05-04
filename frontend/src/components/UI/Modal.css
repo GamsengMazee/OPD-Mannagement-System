@@ -1,0 +1,30 @@
+.modalInput__container{
+    display: flex;
+    justify-content: center;
+}
+.verticallyCenteredModalForm{
+    width: 60%;
+}
+
+.modalInput__wrapper{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.modalInput__wrapper label{
+    font-weight: bold;
+}
+.modalInput__wrapper input, .modalInput__wrapper select {
+    width: 90%;
+    margin-left: 5px;
+    padding: 4px 2px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .modalInput__wrapper input:focus, .modalInput__wrapper select:focus{
+    outline: none;
+    border-color: rgb(21, 62, 153);
+}

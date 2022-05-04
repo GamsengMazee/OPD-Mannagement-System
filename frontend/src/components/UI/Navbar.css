@@ -1,0 +1,39 @@
+.navbar{
+    color: rgb(15, 116, 48);
+}
+.navbar h1{
+    font-weight: bold;
+    padding-left: 10px;
+}
+.menuIcon{
+    display: none;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul li{
+    list-style: none;
+    margin-right: 40px;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(15, 116, 48);
+    text-align: center;
+}
+.navbar ul li a:hover{
+    color: rgb(47, 218, 161);
+}
+
+
+.mobile__nav{
+    display: none;
+}

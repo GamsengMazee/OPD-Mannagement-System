@@ -1,0 +1,152 @@
+ .print__logo{
+     width: 100px;
+     height: 80px;
+     position: absolute;
+     left: 7%;
+     top: 0;
+ }
+ 
+ .hr{
+    color: rgb(0, 0, 0);
+    height: 2px !important;
+}
+.uid__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.uid__align{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+.uid__spacing{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.uid__spacing p{
+    margin-bottom: 0;
+}
+.patientDetails__align{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+}
+
+.printDetail__center{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.patientDetails__margin{
+    width: 95%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.patient__details{
+    margin-top: 20px;
+}
+
+.print__fields{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    height: 30px;
+}
+
+.patient__details{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.printDetail__wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.print__fields label{
+    margin-right: 8px;
+}
+.consultant__wrapper{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.consultant__align{
+    width: 89%;
+}
+.consultant__align p{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+
+.overflow{
+    width: 200px
+}
+
+.overflow label{
+    width: 100%;
+    font-size: 14px;
+}
+
+.overflow p{
+    width: 100%;
+    font-size: 14px;
+}
+
+.left__content{
+    width: 100%;
+}
+
+.leftContent__wrapper{
+    margin-top: -15px;
+    width: 23%;
+    height: 818px;
+    border-right: 2px solid rgb(167, 166, 166);
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+}
+
+.leftContent__details{
+    width: 90%;
+    margin-top: 15px;
+}
+.leftContent__header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftContent__details ul{
+    padding-left: 8px;
+}
+.square__box{
+    margin-right: 2px;
+}
+.leftContent__details ul li{
+    list-style: none;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
